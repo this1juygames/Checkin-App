@@ -44,7 +44,7 @@ export default function App() {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch("http://192.168.0.9:5050/submit", {
+      const response = await fetch("http://192.168.0.26:5051/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
