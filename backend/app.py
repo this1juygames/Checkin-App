@@ -17,4 +17,9 @@ def submit():
     return jsonify({"message": "Check-in received!"}), 200
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5050)
+    app.run(host='0.0.0.0', port=5050)python
+
+
+    IF _date(range){
+        
+    }
