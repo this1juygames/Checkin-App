@@ -1,0 +1,14 @@
+## How to Start the Backend
+
+1. Clone the repo
+2. Create and activate a virtual environment
+3. Install dependencies
+4. Run the Flask app
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Checkin-App.git
+cd Checkin-App/backend
+python3 -m venv venv
+source venv/bin/activate
+pip install flask pdfrw
+python app.py
